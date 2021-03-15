@@ -1,0 +1,40 @@
+h3{
+	color:blue; text-align:center;
+}
+
+#pc3{
+	color:green; text-align:left;
+}
+
+body{
+	background-color:lightgray;
+}
+
+h1{color:red; text-align:center; font-size:50px;}
+p{color:blue; font-size:20px; font-family:verdana; background-color:yellow; padding:10px; margin:20px; title="I'm a tooltip"}
+img{width:100px; height:250px;}
+a:link{color: green; background-color:transparent; text-decoration:none;}
+a:visited{color:tomato; background-color:transparent; text-decoration:none;}
+a:hover{color:yellow; background-color:transparent; text-decoration:underline;}
+a:active{color:dark gray; background-color:transparent; text-decoration:underline;}
+table, caption, th, td{border: 1px solid black; border-collapse:collapse;}
+
+footer{
+	background-color:gray;
+	width:190;
+	height:9vh;
+	background-position:center;
+	background-size:center;
+	overflow:hidden;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:100px;
+}
+unorderedlist>ul li{
+		display:flex;
+		float:left;
+		padding:7px 7px 7px 7px;
+}
+unorderedlist >ul li:hover{
+	border-bottom:5px solid #1762a7;
+}
